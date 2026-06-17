@@ -1,0 +1,24 @@
+{
+  "name": "miscmcdesign",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sefonic/TebexTemplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Sefonic/TebexTemplate/issues"
+  },
+  "homepage": "https://github.com/Sefonic/TebexTemplate#readme",
+  "devDependencies": {
+    "vite": "^8.0.16"
+  }
+}

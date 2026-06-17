@@ -1,0 +1,13 @@
+<div class="package-card">
+  {% if package.badge %}
+  <div class="package-card__badge {% if package.badge == 'best-value' %}package-card__badge--best-value{% endif %}">{{ package.badge }}</div>
+  {% endif %}
+  <div class="package-card__credits">{{ package.credits }} Credits</div>
+  <div class="package-card__credits-bar">
+    <div class="package-card__credits-bar-fill" style="width: {{ package.progress }}%;"></div>
+  </div>
+  <div class="package-card__price">${{ package.price }}</div>
+  <a href="{{ package.buy_url }}" class="package-card__buy-btn">
+    🛒 Buy
+  </a>
+</div>
